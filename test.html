@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #ff3399;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 35px;
+      color: #800080;
+    }
+
+    .question-number {
+      display: inline-block;
+      background-color: #800080;
+      color: white;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 50%;
+      font-size: 30px;
+      margin-top: 40px;
+    }
+
+    .question-text {
+      font-size: 24px;
+      color: #800080;
+      margin: 10px 0;
+    }
+
+    .options {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      font-size: 28px;
+      color: #ff3399;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .answer-btn {
+      font-size: 30px;
+      padding: 12px 30px;
+      background: linear-gradient(to right, #d6a4ff, #d6b3ff);
+      border: 3px solid #b266ff;
+      border-radius: 20px;
+      color: #4b0082;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(178, 102, 255, 0.3);
+      transition: 0.3s;
+      margin-top: 40px;
+    }
+
+    .answer-btn:hover {
+      background: linear-gradient(to right, #caa3ff, #e5ccff);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ТЕСТ</h1>
+
+  <!-- Вопрос 1 -->
+  <div class="question">
+    <div class="question-number">1</div>
+    <div class="question-text">твоя самооценка..?</div>
+    <div class="options">
+      <label><input type="radio" name="q1">низкая..</label>
+      <label><input type="radio" name="q1">высокая!</label>
+      <label><input type="radio" name="q1">ты недостойна , чтобы я отвечала тебе!!!</label>
+    </div>
+  </div>
+
+  <!-- Вопрос 2 -->
+  <div class="question">
+    <div class="question-number">2</div>
+    <div class="question-text">кто красотка?</div>
+    <div class="options">
+      <label><input type="radio" name="q2">подруги</label>
+      <label><input type="radio" name="q2">я</label>
+    </div>
+  </div>
+
+  <!-- Вопрос 3 -->
+  <div class="question">
+    <div class="question-number">3</div>
+    <div class="question-text">Что надо делать, чтобы быть настоящей пикми?</div>
+    <div class="options">
+      <label><input type="radio" name="q3">уважать других</label>
+      <label><input type="radio" name="q3">быть бич</label>
+      <label><input type="radio" name="q3">быть нормальной</label>
+    </div>
+  </div>
+
+  <!-- Кнопка -->
+  <button class="answer-btn" onclick="window.location.href='e36dcceb-3a15-49fa-aab1-7c056d948ce3.png'">
+    Ответить
+  </button>
+
+</body>
+</html>
